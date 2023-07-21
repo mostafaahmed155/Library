@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/book-list.css">
+    <title>book list</title>
+</head>
+<body>
+    <div class="start">
+        <h1>My Library</h1>
+        <p>search about you want</p>
+        <form id="search-books">
+            <input type="text" placeholder="Search books..." style="color: black;" />
+        </form>
+        <div id="book-list">
+	    	<h2 class="title">Books to Read</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="name">Clean Code </span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li id="hmada">
+	    			<span class="name">automate the boring stuff </span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Design Patterns </span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Data-structure and algorithm</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    	</ul>
+	    </div>
+
+        <input type="checkbox" id = "hide">
+		<label for="hide" > hide all books </label>
+		
+	    <form id="add-book">
+	    	<input type="text" class="hola" placeholder="Add a book..." />
+	    	<button class="btn">Add</button>
+	    </form>
+    </div>
+    
+    <script src="static/js/book-list.js"></script>
+</body>
+</html>
